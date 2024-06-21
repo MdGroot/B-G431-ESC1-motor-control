@@ -4,28 +4,28 @@ The directory generated controller contains generated code for controlling a May
 
 ## Contents
 ### Generated_controller.stwb6
-ST Motor Control Workbench project file. 
+ST Motor Control Workbench project file.  
 Would normally be located in C/Users/$USER/.st_workbench/projects/
 
 ### Generated_controller
-Contains generated code from the Generated_controller.stwb6 project file. 
+Contains generated code from the Generated_controller.stwb6 project file.  
 Would normally be located in C/Users/$USER/.st_workbench/projects/
 
 ### Maytech-MTO5065-HA-C.xml
-Motor information file for ST Motor Control Workbench. 
+Motor information file for ST Motor Control Workbench.  
 Would normally be located in C/Users/$USER/.st_motor_control/user_motors/
 
 ## Software used
-ST Motor Control Workbench 6.3.0 
-ST Motor Profiler 6.3.0 
-STM32CubeIDE 1.15.1
+ST Motor Control Workbench 6.3.0  
+ST Motor Profiler 6.3.0  
+STM32CubeIDE 1.15.1  
 
 ## Building and flashing
 - Clone the repository
 - Open the directory named **STM32CubeIDE** in **Generated_controller**
 - Right click on the file **.project** and open with STM32CubeIDE (This should import the project into the Cube IDE)
 - Right click the project in the **Project Explorer** in STM32CubeIDE and press **Build Project**
-- Right click the project in the **Project Explorer** in STM32CubeIDE and press **Run as** and click on **STM32 C/C++ Application**
+- Right click the project in the **Project Explorer** in STM32CubeIDE and press **Run as** and click on **STM32 C/C++ Application**  
 The controller should now be flashed
 
 ## Running Motor Pilot 
